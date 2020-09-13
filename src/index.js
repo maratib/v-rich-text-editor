@@ -1,2 +1,4 @@
-import Component from './components/VRichTextEditor.vue';
-export default Vue => Vue.component(Component.name, Component);
+import Vue from "vue";
+import VRichTextEditor from './components/VRichTextEditor.vue';
+Vue.component(VRichTextEditor.name, VRichTextEditor);
+export default VRichTextEditor;

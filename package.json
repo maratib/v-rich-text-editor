@@ -1,10 +1,15 @@
 {
   "name": "v-rich-text-editor",
   "author": "Maratib Ali Khan",
-  "version": "0.1.2",
-  "license": "ISC",
+  "version": "0.1.6",
+  "license": "MIT",
   "private": false,
   "main": "./dist/vrichtexteditor.common.js",
+  "homepage": "https://github.com/maratib/v-rich-text-editor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maratib/v-rich-text-editor.git"
+  },
   "keywords": [
     "vuetify rich text editor",
     "rich text editor",
@@ -16,18 +21,12 @@
     "build-bundle": "vue-cli-service build --target lib --name vrichtexteditor ./src/index.js"
   },
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "dist/*"
   ],
-  "dependencies": {
+  "devDependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
-    "vuetify": "^2.2.11"
-  },
-  "devDependencies": {
+    "vuetify": "^2.2.11",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "sass": "^1.19.0",

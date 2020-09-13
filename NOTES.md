@@ -33,3 +33,6 @@ Make sure your `main` attribute in package.json is correctly pointing towards yo
 
 DONE!
 
+Resources:
+
+https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3

@@ -36,7 +36,13 @@
           <v-icon class="title">mdi-format-clear</v-icon>
         </v-btn>
       </v-toolbar>
-      <v-col style cols="12" id="text" @input="onUpdate" contenteditable="true"></v-col>
+      <v-col
+        style="height: 40vh; border: 1px solid #eee;"
+        cols="12"
+        id="text"
+        @input="onUpdate"
+        contenteditable="true"
+      ></v-col>
     </v-row>
     <v-dialog v-model="link.displayDialog" width="500">
       <v-card>
